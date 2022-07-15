@@ -4,20 +4,20 @@ AOS.init();
 
 const moocs = document.querySelector(".moocs");
 const moocscards = [
-  {
-    title: "Data Science",
+  { // Done
+    title: "Machine Learning",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.coursera.org/specializations/machine-learning-introduction",
   },
   {
     title: "Cryptography",
     cardImage: "assets/images/education-page/udemy.svg",
     moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
   },
-  {
-    title: "Machine Learning",
+  { // Done
+    title: "Python Classes and Inheritance",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "https://www.coursera.org/account/accomplishments/certificate/XN7CANZLF4KT",
   },
   {
     title: "Introduction to HTML 5",
