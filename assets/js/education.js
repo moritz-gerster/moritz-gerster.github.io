@@ -10,61 +10,54 @@ const moocscards = [
     moocLink: "https://www.coursera.org/specializations/machine-learning-introduction",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Learn Git Course",
+    cardImage: "assets/images/education-page/XXX",
+    moocLink: "https://www.codecademy.com/profiles/moritzGerster7042141366/certificates/a8ab218d5950c29861635cc0bf12fd13",
   },
   { // Done
     title: "Python Classes and Inheritance",
     cardImage: "assets/images/education-page/coursera2.svg",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/XN7CANZLF4KT",
   },
-  {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+  { 
+    title: "Artificial Intelligence Foundations: Neural Networks",
+    cardImage: "assets/images/education-page/LI-In-Bug.png",
+    moocLink: "http://www.linkedin.com/learning/artificial-intelligence-foundations-neural-networks",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Introduction to Data Visualization in Python",
+    cardImage: "assets/images/education-page/XXX"
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/87e6fb52382e58438b630bfd8f286f7e0b1aec8b",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Intermediate Python",
+    cardImage: "assets/images/education-page/XXX.svg",
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/da5d52c64f19e73d5c33d58c220d7a36b8b68af7",
   },
   {
-    title: "Bootstrap 4",
+    title: "Introduction to Time Series Analysis in Python",
+    cardImage: "assets/images/education-page/XXX.svg",
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/b5b7135d185993d3dcd897930d01a676f74c919d",
+  },
+  {
+    title: "Network Analysis in Python (Part 1)",
+    cardImage: "assets/images/education-page/XXX.svg",
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/344ac3d0d8dabeff28f1aea9b0e1f62baa547ce3",
+  },
+  {
+    title: "Network Analysis in Python (Part 2)",
+    cardImage: "assets/images/education-page/XXX.svg",
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/344ac3d0d8dabeff28f1aea9b0e1f62baa547ce3",
+  },
+  {
+    title: "Python Data Science Toolbox (Part 1)",
+    cardImage: "assets/images/education-page/XXX.svg",
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/18f7bcb2797504f2cb32a0f11c361b8cfe434034",
+  },
+  {
+    title: "Python Data Science Toolbox (Part 2)",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/eeae5600ec6f3487691194f60664fd6d58c4cf7b",
   },
 ];
 
