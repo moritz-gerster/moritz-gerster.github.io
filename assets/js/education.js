@@ -11,7 +11,7 @@ const moocscards = [
   },
   {
     title: "Learn Git Course",
-    cardImage: "assets/images/education-page/XXX",
+    cardImage: "assets/images/education-page/codecademy.svg",
     moocLink: "https://www.codecademy.com/profiles/moritzGerster7042141366/certificates/a8ab218d5950c29861635cc0bf12fd13",
   },
   { // Done
@@ -21,42 +21,44 @@ const moocscards = [
   },
   { 
     title: "Artificial Intelligence Foundations: Neural Networks",
-    cardImage: "assets/images/education-page/LI-In-Bug.png",
+    cardImage: "assets/images/education-page/linkedin-learning.svg",
     moocLink: "http://www.linkedin.com/learning/artificial-intelligence-foundations-neural-networks",
   },
   {
     title: "Introduction to Data Visualization in Python",
-    cardImage: "assets/images/education-page/XXX"
+    cardImage: "assets/images/education-page/datacamp.svg"
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/87e6fb52382e58438b630bfd8f286f7e0b1aec8b",
   },
   {
     title: "Intermediate Python",
-    cardImage: "assets/images/education-page/XXX.svg",
+    cardImage: "assets/images/education-page/datacamp.svg",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/da5d52c64f19e73d5c33d58c220d7a36b8b68af7",
   },
   {
     title: "Introduction to Time Series Analysis in Python",
-    cardImage: "assets/images/education-page/XXX.svg",
+    cardImage: "assets/images/education-page/datacamp.svg",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/b5b7135d185993d3dcd897930d01a676f74c919d",
   },
   {
     title: "Network Analysis in Python (Part 1)",
-    cardImage: "assets/images/education-page/XXX.svg",
+    cardImage: "assets/images/education-page/datacamp.svg",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/344ac3d0d8dabeff28f1aea9b0e1f62baa547ce3",
   },
   {
     title: "Network Analysis in Python (Part 2)",
-    cardImage: "assets/images/education-page/XXX.svg",
+    cardImage: "assets/images/education-page/datacamp.svg",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/344ac3d0d8dabeff28f1aea9b0e1f62baa547ce3",
   },
   {
     title: "Python Data Science Toolbox (Part 1)",
-    cardImage: "assets/images/education-page/XXX.svg",
+    //
+    cardImage: "assets/images/education-page/datacamp.png",
+    //
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/18f7bcb2797504f2cb32a0f11c361b8cfe434034",
   },
   {
     title: "Python Data Science Toolbox (Part 2)",
-    cardImage: "assets/images/education-page/udemy.svg",
+    cardImage: "assets/images/education-page/datacamp.svg",
     moocLink: "https://www.datacamp.com/statement-of-accomplishment/course/eeae5600ec6f3487691194f60664fd6d58c4cf7b",
   },
 ];
