@@ -6,22 +6,22 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   { // Done
     title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    cardImage: "assets/images/education-page/coursera2.png",
     moocLink: "https://www.coursera.org/specializations/machine-learning-introduction",
   },
   {
     title: "Learn Git Course",
-    cardImage: "assets/images/education-page/codecademy.svg",
+    cardImage: "assets/images/education-page/codecademy.png",
     moocLink: "https://www.codecademy.com/profiles/moritzGerster7042141366/certificates/a8ab218d5950c29861635cc0bf12fd13",
   },
   { // Done
     title: "Python Classes and Inheritance",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    cardImage: "assets/images/education-page/coursera2.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/XN7CANZLF4KT",
   },
   { 
     title: "Artificial Intelligence Foundations: Neural Networks",
-    cardImage: "assets/images/education-page/linkedin-learning.svg",
+    cardImage: "assets/images/education-page/linkedin-learning.png",
     moocLink: "http://www.linkedin.com/learning/artificial-intelligence-foundations-neural-networks",
   },
   {
