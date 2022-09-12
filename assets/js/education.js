@@ -4,7 +4,17 @@ AOS.init();
 
 const moocs = document.querySelector(".moocs");
 const moocscards = [
-  { // Done
+   {
+    title: "Pattern Recognition in Neuroimaging Virtual Summer School",
+    cardImage: "assets/images/education-page/vienna.jpeg",
+    moocLink: "https://prni2020.univie.ac.at/welcome/#:~:text=The%20aim%20of%20the%20Pattern,data%20sets%20in%20cognitive%20neuroscience.",
+  },
+  {
+    title: "Deep Learning Summer School",
+    cardImage: "assets/images/education-page/neuromatch.png",
+    moocLink: "https://portal.neuromatchacademy.org/certificate/b224b1c3-1166-4854-8578-a95a67b03cd6",
+  },
+  {
     title: "Machine Learning",
     cardImage: "assets/images/education-page/coursera2.png",
     moocLink: "https://www.coursera.org/specializations/machine-learning-introduction",
@@ -14,7 +24,7 @@ const moocscards = [
     cardImage: "assets/images/education-page/codecademy.png",
     moocLink: "https://www.codecademy.com/profiles/moritzGerster7042141366/certificates/a8ab218d5950c29861635cc0bf12fd13",
   },
-  { // Done
+  {
     title: "Python Classes and Inheritance",
     cardImage: "assets/images/education-page/coursera2.png",
     moocLink: "https://www.coursera.org/account/accomplishments/certificate/XN7CANZLF4KT",
