@@ -7,7 +7,6 @@ script.src="https://unpkg.com/sweetalert/dist/sweetalert.min.js";
 document.body.appendChild(script);
 
 // Header
-
 let header = $(`
 <nav class="navbar navbar-expand-lg fixed-top dark-theme" id="navbar">
 <a class="navbar-brand" href="index.html">Moritz Gerster </a>
@@ -25,7 +24,6 @@ let header = $(`
   <ul class="navbar-nav ml-auto" id = "navbar-content">
    <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Home</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Experience</a></li>
-   <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>
@@ -121,7 +119,7 @@ let footer = $(`
       <p class="tag" >If the only tool you have is a hammer, it is tempting to treat everything as if it were a nail.</p>
     </div>
 
-    
+
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
@@ -140,9 +138,9 @@ let footer = $(`
               </div>
                 <form name="form1" action="https://formcarry.com/s/8nB1OBMp8-u" method="POST" accept-charset="UTF-8" >
                   <input id="name" type="text" name="name" placeholder="Your Name" required/>
-                  <input id="email" type="email" name="email" placeholder="Email Address" required/>                  
+                  <input id="email" type="email" name="email" placeholder="Email Address" required/>
                   <textarea id="textArea" name="message" placeholder="Type your Message" required></textarea>
-              
+
                   <div id="main">
                     <button id="lnch" type="button" value="Send" >Send</button>
                     <div id="lnch_btn"><i class="fas fa-space-shuttle"></i></div>
@@ -155,7 +153,7 @@ let footer = $(`
     </div>
 
 
-    
+
 
     <div class="rounded-social-buttons tag">
     <a class="social-button twitter" href="https://twitter.com/BarleyMoritz" target="_blank">
@@ -254,7 +252,7 @@ let footer = $(`
     </a>
 
 
-    
+
     </div>
     </div>
 </footer>
