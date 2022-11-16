@@ -5,25 +5,53 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Clinical Neuroscientist",
+    cardImage: "assets/images/experience-page/MPG.jpg",
+    place: "Max Planck Institute for Human Cognitive and Brain Sciences",
+    time: "(September, 2020 - present)",
+    desp: "<li>Improving deep brain stimulation for Parkinson's disease.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Technical Assistant",
+    cardImage: "assets/images/experience-page/TU.png",
+    place: "Technische Universität Berlin",
+    time: "(July, 2018 - December, 2022)",
+    desp: "<li>Helped organizing talks, conferences, and updating the SFB 910 Website.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Research Assistant",
+    cardImage: "assets/images/experience-page/TU.png",
+    place: "Technische Universität Berlin",
+    time: "(November, 2017 - July, 2020)",
+    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+  },
+  {
+    title: "Laboratory of Behavioral and Cognitive Neuroscience  - Research Assistant",
+    cardImage: "assets/images/experience-page/Stanford.png",
+    place: "Stanford University",
+    time: "(November, 2017 - July, 2020)",
+    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+  },
+  {
+    title: "MathNeuro Team - Research Cooperation",
+    cardImage: "assets/images/experience-page/INRIA.png",
+    place: "Inria",
+    time: "(November, 2017 - July, 2020)",
+    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+  },
+  {
+    title: "Core Facility 7T Experimental MRIs - Research Assistant",
+    cardImage: "assets/images/experience-page/Charite.png",
+    place: "Charité",
+    time: "(November, 2017 - July, 2020)",
+    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+  },
+  {
+    title: "Electrical Geodesics, Inc. - Research Assistant",
+    cardImage: "assets/images/experience-page/BEL.png",
+    place: "Brain Electrophysiology Laboratory",
+    time: "(November, 2017 - July, 2020)",
+    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
   },
 ];
 
@@ -31,8 +59,8 @@ const showCards2 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-      (output += `        
-    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+      (output += `
+    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400">
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
         <article class="card-body">
@@ -91,14 +119,14 @@ const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
-      (output += `        
+      (output += `
       <div class="card volunteerCard" data-aos="fade-down" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="600" style="height: 550px;width:400px">
-      
+
       <img src="${cardImage}" height="250" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
           <p class="copy">${description}</p></div>
-      
+
       </div>
       `)
   );
@@ -206,7 +234,7 @@ const showCards3 = () => {
   let output = "";
   mentor.forEach(
     ({ title, image, subtitle, desp }) =>
-      (output += `  
+      (output += `
       <div class="blog-slider__item swiper-slide">
         <div class="blog-slider__img">
             <img src="${image}" alt="">
@@ -215,7 +243,7 @@ const showCards3 = () => {
           <div class="blog-slider__title">${title}</div>
           <span class="blog-slider__code">${subtitle}</span>
           <div class="blog-slider__text">${desp}</div>
-          <a href="#" class="blog-slider__button">Read More</a>   
+          <a href="#" class="blog-slider__button">Read More</a>
         </div>
       </div>
       `)
