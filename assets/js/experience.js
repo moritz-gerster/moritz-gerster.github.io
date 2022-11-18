@@ -5,53 +5,57 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Clinical Neuroscientist",
+    title: "Neural Interactions and Dynamics - Clinical Neuroscientist",
     cardImage: "assets/images/experience-page/MPG.jpg",
     place: "Max Planck Institute for Human Cognitive and Brain Sciences",
     time: "(September, 2020 - present)",
-    desp: "<li>Improving deep brain stimulation for Parkinson's disease.</li>",
+    desp: "Deep brain stimulation research in Parkinson's disease.",
   },
-  {
-    title: "Technical Assistant",
+ /* {
+    title: "CRC 910: Control of self-organizing nonlinear systems - Technical Assistant",
     cardImage: "assets/images/experience-page/TU.png",
     place: "Technische Universität Berlin",
     time: "(July, 2018 - December, 2022)",
-    desp: "<li>Helped organizing talks, conferences, and updating the SFB 910 Website.</li>",
-  },
+    desp: "<li>Technical assistance and organization of talks and conferences </li> <li>updating the CRC 910 website</li>",
+  },*/
   {
-    title: "Research Assistant",
+    title: "Nonlinear Dynamics and Control - Research Assistant",
     cardImage: "assets/images/experience-page/TU.png",
     place: "Technische Universität Berlin",
     time: "(November, 2017 - July, 2020)",
-    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+    // desp: "<li>Modeled epileptic seizures origination (Gerster et al. 2020).</li>",
+    desp: "<li> Simulated human brain using the FitzHugh-Nagumo model with empirical connectivities </li> <li>Investigated emergence, propagation, and termination of epileptic seizures</li> <li>Evaluated the role of the network topology using graph theory</li>", // <li>Gerster et al. (2020)</li>
   },
   {
     title: "Laboratory of Behavioral and Cognitive Neuroscience  - Research Assistant",
     cardImage: "assets/images/experience-page/Stanford.png",
     place: "Stanford University",
-    time: "(November, 2017 - July, 2020)",
-    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+    time: "(February, 2020 - March, 2020)",
+    // desp: "<li>Analyzed phase-amplitude coupling in human electrocorticography data.</li>",
+    desp: "<li>Analyzed electrocorticography (ECoG) and stereoelectroencephalography (SEEG) data collected from human subjects </li> <li>Analyzed phase-amplitude coupling during mathematical tasks</li>",
   },
   {
     title: "MathNeuro Team - Research Cooperation",
     cardImage: "assets/images/experience-page/INRIA.png",
     place: "Inria",
-    time: "(November, 2017 - July, 2020)",
-    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+    time: "(October, 2019)",
+    // desp: "<li>Modeled epileptic seizure propagation (Gerster et al. 2021).</li>",
+    desp: "<li> Simulated epileptic seizures using quadratic integrate and fire neurons </li> <li>Compared simulation between healthy and epileptic diffusion tensor imaging topologies </li><li> Determined seizure recruitment and propagation dynamics</li>", // <li>Gerster et al. (2021)</li>
   },
   {
     title: "Core Facility 7T Experimental MRIs - Research Assistant",
-    cardImage: "assets/images/experience-page/Charite.png",
+    cardImage: "assets/images/experience-page/Charite.jpg",
     place: "Charité",
-    time: "(November, 2017 - July, 2020)",
-    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+    time: "(November, 2015 - May, 2018)",
+    // desp: "<li>Comparison of Magnetic Resonance Perfusion Imaging Methods after Stroke.</li>",
+    desp: "<li>Determined the magnetic relaxivities of new contrast agents in dependence of their temperature using magnetic resonance imaging (MRI) </li> <li>Computed lesion sizes of ischemic strokes in mice</li> <li>Created blood flow maps using arterial spin labeling and dynamic susceptibility contrast imaging</li>",
   },
   {
     title: "Electrical Geodesics, Inc. - Research Assistant",
     cardImage: "assets/images/experience-page/BEL.png",
     place: "Brain Electrophysiology Laboratory",
-    time: "(November, 2017 - July, 2020)",
-    desp: "<li>Published two articles on modeling epileptic seizures.</li>",
+    time: "(January, 2015 - June, 2015)",
+    desp: "Conducted dense array electroencephalography experiments on language, attention, and affect.",
   },
 ];
 
