@@ -30,6 +30,7 @@ const research = [
     researchYr: 2021,
     citebox: "popup2",
     image: "assets/images/research-page/GER21.png",
+    //image: "assets/images/research-page/GER21_test.gif",
     citation: {
       vancouver:
         "Gerster, M., Taher, H., Škoch, A., Hlinka, J., Guye, M., Bartolomei, F., Jirsa, V., Zakharova, A. and Olmi, S., 2021. Patient-specific network connectivity combined with a next generation neural mass model to test clinical hypothesis of seizure propagation. Frontiers in Systems Neuroscience, p.79. https://doi.org/10.3389/fnsys.2021.675272",
