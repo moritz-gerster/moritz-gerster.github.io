@@ -94,6 +94,13 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
+    title: "MNE-BIDS",
+    // cardImage: "assets/images/experience-page/MNE-BIDS.png",
+    cardImage: "assets/images/experience-page/MNEBIDS.gif",
+    description:
+      "Add function mne_bids.find_matching_paths to enable smart dataset filtering.",
+  },
+  {
     title: "MNE-Python",
     cardImage: "assets/images/experience-page/MNE.svg",
     description:
@@ -103,7 +110,7 @@ const volunteershipcards = [
     title: "YASA",
     cardImage: "assets/images/experience-page/YASA.png",
     description:
-      "Add warnings to IRASA algorithm to prevent users from incorrect usage.",
+      "Inform users of irasa function about evaluated fitting range and raise warnings when used incorrectly.",
   },
 ];
 

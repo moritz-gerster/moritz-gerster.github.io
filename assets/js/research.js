@@ -11,7 +11,7 @@ const research = [
       "Neuroinformatics, pp.1-22.",
     researchYr: 2022,
     citebox: "popup1",
-    image: "assets/images/research-page/GER22.png",
+    image: "assets/images/research-page/GER22.webp",
     citation: {
       vancouver:
         "Gerster, M., Waterstraat, G., Litvak, V., Lehnertz, K., Schnitzler, A., Florin, E., Curio, G. and Nikulin, V., 2022. Separating neural oscillations from aperiodic 1/f activity: challenges and recommendations. Neuroinformatics, pp.1-22. https://doi.org/10.1007/s12021-022-09581-8.",
@@ -29,7 +29,7 @@ const research = [
       "Frontiers in Systems Neuroscience, p.79.",
     researchYr: 2021,
     citebox: "popup2",
-    image: "assets/images/research-page/GER21.png",
+    image: "assets/images/research-page/GER21.webp",
     //image: "assets/images/research-page/GER21_test.gif",
     citation: {
       vancouver:
@@ -48,7 +48,7 @@ const research = [
       "Chaos, 30(12), p.123130.",
     researchYr: 2020,
     citebox: "popup3",
-    image: "assets/images/research-page/GER20.png",
+    image: "assets/images/research-page/GER20.webp",
     citation: {
       vancouver:
         "Gerster, M., Berner, R., Sawicki, J., Zakharova, A., Škoch, A., Hlinka, J., Lehnertz, K. and Schöll, E., 2020. FitzHugh–Nagumo oscillators on complex networks mimic epileptic-seizure-related synchronization phenomena. Chaos, 30(12), p.123130. https://doi.org/10.1063/5.0021420",
