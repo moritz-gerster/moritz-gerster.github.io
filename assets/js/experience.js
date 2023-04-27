@@ -94,18 +94,25 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
+    title: "MNE-Python",
+    cardImage: "assets/images/experience-page/MNE.svg",
+    description:
+      "Three bug fixes, one enhancement.",
+  },
+  {
     title: "MNE-BIDS",
     // cardImage: "assets/images/experience-page/MNE-BIDS.png",
     cardImage: "assets/images/experience-page/MNEBIDS.gif",
     description:
       "Add function mne_bids.find_matching_paths to enable smart dataset filtering.",
   },
-  {
-    title: "MNE-Python",
-    cardImage: "assets/images/experience-page/MNE.svg",
-    description:
-      "Enable bad channel consideration for function mne.set_bipolar_reference.",
-  },
+  // {
+  //   title: "MNE-Connectivity",
+  //   // cardImage: "assets/images/experience-page/MNE-BIDS.png",
+  //   cardImage: "assets/images/experience-page/MNEBIDS.gif",
+  //   description:
+  //     "Improve doc.",
+  // },
   {
     title: "YASA",
     cardImage: "assets/images/experience-page/YASA.png",
