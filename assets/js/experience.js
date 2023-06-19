@@ -11,6 +11,20 @@ const exp = [
     time: "(September, 2020 - present)",
     desp: "Deep brain stimulation research in Parkinson's disease.",
   },
+  {
+    title: "Wellcome Trust Centre for Neuroimaging - Research Cooperation",
+    cardImage: "assets/images/experience-page/UCL.jpg",
+    place: "University College London",
+    time: "(May, 2023 - June, 2023)",
+    desp: "<li> Spectral parametrization of local field potential (LFP) spectra in Dystonia </li> <li> MEG-LFP connectivity analysis in Parkinson's disease </li>",
+  },
+  {
+    title: "MRC Brain Network Dynamics Unit - Research Cooperation",
+    cardImage: "assets/images/experience-page/Oxford.png",
+    place: "University of Oxford",
+    time: "(March, 2023 - April, 2023)",
+    desp: "<li> Applied tractography to electrocorticography (ECoG) and local field potential (LFP) data </li> <li> Related functional connectivity to structural connectivity </li>",
+  },
  /* {
     title: "CRC 910: Control of self-organizing nonlinear systems - Technical Assistant",
     cardImage: "assets/images/experience-page/TU.png",
@@ -55,7 +69,7 @@ const exp = [
     cardImage: "assets/images/experience-page/BEL.png",
     place: "Brain Electrophysiology Laboratory",
     time: "(January, 2015 - June, 2015)",
-    desp: "Conducted dense array electroencephalography experiments on language, attention, and affect.",
+    desp: "<li>Conducted dense array electroencephalography experiments on language, attention, and affect</li>",
   },
 ];
 
