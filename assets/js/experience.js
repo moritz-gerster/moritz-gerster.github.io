@@ -9,7 +9,7 @@ const exp = [
     cardImage: "assets/images/experience-page/MPG.jpg",
     place: "Max Planck Institute for Human Cognitive and Brain Sciences",
     time: "(September, 2020 - present)",
-    desp: "<li> Led a multidisciplinary, international collaboration across 4 university hospitals in 2 countries (32 coauthors); largest study linking subthalamic brain signals to Parkinson’s disease symptoms (119 patients) </li> <li>Built ML models (Multiple Linear Regression, Extremely Randomized Trees) to predict Parkinson’s disease medication response from local field potential spectral features; addressed generalization challenges across heterogeneous cohorts</li> Engineered end-to-end Python pipelines for cleaning, preprocessing, and statistical analysis of 15 GB of multivariate local field potential data across 5 diverse patient cohorts  </li>",
+    desp: "<li> Led a multidisciplinary, international collaboration across 4 university hospitals in 2 countries (32 coauthors); largest study linking subthalamic brain signals to Parkinson’s disease symptoms (119 patients). </li> <li>Built ML models (Multiple Linear Regression, Extremely Randomized Trees) to predict Parkinson’s disease medication response from local field potential spectral features; addressed generalization challenges across heterogeneous cohorts.</li> Engineered end-to-end Python pipelines for cleaning, preprocessing, and statistical analysis of 15 GB of multivariate local field potential data across 5 diverse patient cohorts. </li>",
     // <li> Standardized heterogeneous clinical datasets into reproducible formats, enabling robust symptom prediction and cross-cohort modeling<li>Boosted symptom prediction performance using multiple linear regression with novel spectral features (r=0.47), doubling correlations reported in prior large-scale studies (r≈0.21) </li> <li> Applied dimensionality reduction (PCA, ICA, CSP, SSD) to high-dimensional multivariate neural signals to uncover latent structure and reduce model complexity</li> <li> Recorded combined EEG and MEG from Parkinson’s patients during deep brain stimulation (DBS) sessions; gained insight into neural implant programming</li> <li>Proposed a novel closed-loop neuromodulation biomarker candidate </li> <li> Precisely localized subthalamic oscillations, improving spatial correlation with the therapeutic DBS location from r≈0.23 in prior studies to r=0.45 — a major step toward automated DBS programming</li> <li> Published best-practice guidelines for separating neural oscillations from 1/f noise (Neuroinformatics 2022, 200+ citations)</li> <li>Presented findings in 4 international conference talks, taught at workshops (University College London SPM course, International Electrophysiology Skills Days); authored public-facing content </li>",
   },
   {
@@ -17,14 +17,14 @@ const exp = [
     cardImage: "assets/images/experience-page/UCL.jpg",
     place: "University College London",
     time: "(May, 2023 - June, 2023)",
-    desp: "<li> Spectral parametrization of local field potential (LFP) spectra in Dystonia </li> <li> MEG-LFP connectivity analysis in Parkinson's disease </li>",
+    desp: "<li> Spectral parametrization of local field potential (LFP) spectra in Dystonia. </li> <li> MEG-LFP connectivity analysis in Parkinson's disease. </li>",
   },
   {
     title: "MRC Brain Network Dynamics Unit - Research Cooperation",
     cardImage: "assets/images/experience-page/Oxford.png",
     place: "University of Oxford",
     time: "(March, 2023 - April, 2023)",
-    desp: "<li> Studied structural brain connectivity using diffusion MRI-based tractography </li> <li> Investigated its relationship to functional connectivity inferred from brain oscillations</li>",
+    desp: "<li> Studied structural brain connectivity using diffusion MRI-based tractography. </li> <li> Investigated its relationship to functional connectivity inferred from brain oscillations.</li>",
   },
  /* {
     title: "CRC 910: Control of self-organizing nonlinear systems - Technical Assistant",
@@ -39,7 +39,7 @@ const exp = [
     place: "Technische Universität Berlin",
     time: "(November, 2017 - July, 2020)",
     // desp: "<li>Modeled epileptic seizures origination (Gerster et al. 2020).</li>",
-    desp: "<li> Modeled epileptic seizures; achieved the group’s first empirical validation of seizure models using EEG techniques self-learned in a clinical epilepsy research lab at Stanford, bridging theory with empirical data </li> <li>Published Master’s thesis as two first-author papers (Chaos, 2020; Front. Syst. Neurosci., 2021; 170+ citations combined), demonstrating rapid, high-impact research execution under tight timelines</li>", // <li>Gerster et al. (2020)</li>
+    desp: "<li> Modeled epileptic seizures; achieved the group’s first empirical validation of seizure models using EEG techniques self-learned in a clinical epilepsy research lab at Stanford, bridging theory with empirical data. </li> <li>Published Master’s thesis as two first-author papers (Chaos, 2020; Front. Syst. Neurosci., 2021; 170+ citations combined), demonstrating rapid, high-impact research execution under tight timelines.</li>", // <li>Gerster et al. (2020)</li>
   },
   {
     title: "Laboratory of Behavioral and Cognitive Neuroscience  - Research Assistant",
@@ -47,7 +47,7 @@ const exp = [
     place: "Stanford University",
     time: "(February, 2020 - March, 2020)",
     // desp: "<li>Analyzed phase-amplitude coupling in human electrocorticography data.</li>",
-    desp: "<li>Analyzed electrocorticography (ECoG) and stereoelectroencephalography (SEEG) data collected from human subjects </li> <li>Evaluated phase-amplitude coupling during mathematical tasks</li>",
+    desp: "<li>Analyzed electrocorticography (ECoG) and stereoelectroencephalography (SEEG) data collected from human subjects.</li> <li>Evaluated phase-amplitude coupling during mathematical tasks.</li>",
   },
   {
     title: "MathNeuro Team - Research Cooperation",
@@ -55,7 +55,7 @@ const exp = [
     place: "Inria",
     time: "(October, 2019)",
     // desp: "<li>Modeled epileptic seizure propagation (Gerster et al. 2021).</li>",
-    desp: "<li> Modeled epileptic seizures using quadratic integrate and fire neurons </li> <li>Compared neural dynamics on structural brain networks from healthy and epileptic subjects</li><li> Determined seizure recruitment and propagation dynamics</li>", // <li>Gerster et al. (2021)</li>
+    desp: "<li> Modeled epileptic seizures using quadratic integrate and fire neurons. </li> <li>Compared neural dynamics on structural brain networks from healthy and epileptic subjects.</li><li> Determined seizure recruitment and propagation dynamics.</li>", // <li>Gerster et al. (2021)</li>
   },
   {
     title: "Core Facility 7T Experimental MRIs - Research Assistant",
@@ -63,14 +63,14 @@ const exp = [
     place: "Charité",
     time: "(November, 2015 - May, 2018)",
     // desp: "<li>Comparison of Magnetic Resonance Perfusion Imaging Methods after Stroke.</li>",
-    desp: "<li>Determined magnetic relaxivities of new contrast agents using magnetic resonance imaging (MRI)</li> <li>Computed lesion sizes of ischemic strokes in mice</li> <li>Created blood flow maps using arterial spin labeling and dynamic susceptibility contrast imaging</li>",
+    desp: "<li>Determined magnetic relaxivities of new contrast agents using magnetic resonance imaging (MRI).</li> <li>Computed lesion sizes of ischemic strokes in mice.</li> <li>Created blood flow maps using arterial spin labeling and dynamic susceptibility contrast imaging.</li>",
   },
   {
     title: "Electrical Geodesics, Inc. - Research Assistant",
     cardImage: "assets/images/experience-page/BEL.png",
     place: "Brain Electrophysiology Laboratory",
     time: "(January, 2015 - June, 2015)",
-    desp: "<li>Conducted high-density EEG experiments on language, attention, and affect</li>",
+    desp: "<li>Conducted high-density EEG experiments on language, attention, and affect.</li>",
   },
 ];
 
