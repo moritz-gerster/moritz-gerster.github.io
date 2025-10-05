@@ -162,13 +162,13 @@ const mentor = [
     title: "ReTune Hackathon 2022",
     subtitle: "Guide",
     image: "assets/images/experience-page/Hackathon.png",
-    desp: "Lead a team of mostly inexperienced Python programmers to work on MNE-Python enhancements.",
+    desp: "Led a team of mostly inexperienced Python programmers to work on MNE-Python enhancements.",
   },
   {
     title: "ReTune Hackathon 2023",
     subtitle: "Participant",
     image: "assets/images/experience-page/Hackathon.png",
-    desp: "Research on public neuropixel dataset; replicated Manning (2009); related LFPs to neural spiking activity.",
+    desp: "Research on public neuropixel dataset; our team of n=2 replicated Manning (2009) in just 3 days; related LFPs to neural spiking activity.",
   },
 ];
 
