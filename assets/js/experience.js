@@ -10,7 +10,6 @@ const exp = [
     place: "Max Planck Institute for Human Cognitive and Brain Sciences",
     time: "(September, 2020 - present)",
     desp: "<li> Led a multidisciplinary, international collaboration across 4 university hospitals in 2 countries (32 coauthors); largest study linking subthalamic brain signals to Parkinson’s disease symptoms (119 patients). </li> <li>Built ML models (Multiple Linear Regression, Extremely Randomized Trees) to predict Parkinson’s disease medication response from local field potential spectral features; addressed generalization challenges across heterogeneous cohorts.</li> <li>Boosted symptom prediction performance using multiple linear regression with novel spectral features (r=0.47), doubling correlations reported in prior large-scale studies (r≈0.21). </li>",
-    // <li> Standardized heterogeneous clinical datasets into reproducible formats, enabling robust symptom prediction and cross-cohort modeling<li>Boosted symptom prediction performance using multiple linear regression with novel spectral features (r=0.47), doubling correlations reported in prior large-scale studies (r≈0.21) </li> <li> Applied dimensionality reduction (PCA, ICA, CSP, SSD) to high-dimensional multivariate neural signals to uncover latent structure and reduce model complexity</li> <li> Recorded combined EEG and MEG from Parkinson’s patients during deep brain stimulation (DBS) sessions; gained insight into neural implant programming</li> <li>Proposed a novel closed-loop neuromodulation biomarker candidate </li> <li> Precisely localized subthalamic oscillations, improving spatial correlation with the therapeutic DBS location from r≈0.23 in prior studies to r=0.45 — a major step toward automated DBS programming</li> <li> Published best-practice guidelines for separating neural oscillations from 1/f noise (Neuroinformatics 2022, 200+ citations)</li> <li>Presented findings in 4 international conference talks, taught at workshops (University College London SPM course, International Electrophysiology Skills Days); authored public-facing content </li>",
   },
   {
     title: "Wellcome Trust Centre for Neuroimaging - Research Cooperation",
@@ -167,7 +166,7 @@ const mentor = [
   },
   {
     title: "ReTune Hackathon 2023",
-    subtitle: "Guide",
+    subtitle: "Participant",
     image: "assets/images/experience-page/Hackathon.png",
     desp: "Research on public neuropixel dataset; replicated Manning (2009); related LFPs to neural spiking activity.",
   },
