@@ -168,7 +168,7 @@ const mentor = [
     title: "ReTune Hackathon 2023",
     subtitle: "Participant",
     image: "assets/images/experience-page/Hackathon.png",
-    desp: "Research on public neuropixel dataset; our team of n=2 replicated Manning (2009) in just 3 days; related LFPs to neural spiking activity.",
+    desp: "Research on public neuropixel dataset; our team of n=2 replicated Manning et al. (2009) in just 3 days; related LFPs to neural spiking activity.",
   },
 ];
 
