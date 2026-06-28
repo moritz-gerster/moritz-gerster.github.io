@@ -804,3 +804,20 @@ a:hover {
     width: 60%;
   }
 }
+
+.publication-links {
+  display: flex;
+  gap: 0.8em;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+
+.publication-links a {
+  color: var(--hover-link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.publication-links a:hover {
+  border-bottom-color: var(--hover-link);
+}

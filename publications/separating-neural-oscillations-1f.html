@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Separating Neural Oscillations from Aperiodic 1/f Activity: Challenges and Recommendations | Moritz Gerster</title>
+    <meta name="description" content="Methods and recommendations paper discussing how to separate neural oscillations from aperiodic 1/f-like activity in electrophysiological power spectra, comparing FOOOF and IRASA.">
+    <meta name="keywords" content="aperiodic 1/f activity, neural oscillations, FOOOF, IRASA, spectral parameterization, EEG, MEG, LFP, oscillation detection, aperiodic exponent, power-law background">
+    <link rel="canonical" href="https://moritz-gerster.com/publications/separating-neural-oscillations-1f.html">
+
+    <!-- Google Scholar citation meta -->
+    <meta name="citation_title" content="Separating Neural Oscillations from Aperiodic 1/f Activity: Challenges and Recommendations">
+    <meta name="citation_author" content="Gerster, Moritz">
+    <meta name="citation_author" content="Waterstraat, Gunnar">
+    <meta name="citation_author" content="Litvak, Vladimir">
+    <meta name="citation_author" content="Lehnertz, Klaus">
+    <meta name="citation_author" content="Schnitzler, Alfons">
+    <meta name="citation_author" content="Florin, Esther">
+    <meta name="citation_author" content="Curio, Gabriel">
+    <meta name="citation_author" content="Nikulin, Vadim">
+    <meta name="citation_publication_date" content="2022">
+    <meta name="citation_journal_title" content="Neuroinformatics">
+    <meta name="citation_volume" content="20">
+    <meta name="citation_firstpage" content="991">
+    <meta name="citation_lastpage" content="1012">
+    <meta name="citation_doi" content="10.1007/s12021-022-09581-8">
+    <meta name="citation_pdf_url" content="https://moritz-gerster.com/assets/pdfs/Gerster_2022_Neuroinformatics_Separating_Neural_Oscillations_1f.pdf">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Separating Neural Oscillations from Aperiodic 1/f Activity: Challenges and Recommendations">
+    <meta property="og:description" content="Comparing FOOOF and IRASA for separating periodic and aperiodic components in electrophysiological power spectra.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://moritz-gerster.com/publications/separating-neural-oscillations-1f.html">
+    <meta property="og:site_name" content="Moritz Gerster">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Separating Neural Oscillations from Aperiodic 1/f Activity | Moritz Gerster">
+
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/publication.css">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/png">
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "headline": "Separating Neural Oscillations from Aperiodic 1/f Activity: Challenges and Recommendations",
+        "author": [
+            {"@type": "Person", "name": "Moritz Gerster", "url": "https://moritz-gerster.com"},
+            {"@type": "Person", "name": "Gunnar Waterstraat"},
+            {"@type": "Person", "name": "Vladimir Litvak"},
+            {"@type": "Person", "name": "Klaus Lehnertz"},
+            {"@type": "Person", "name": "Alfons Schnitzler"},
+            {"@type": "Person", "name": "Esther Florin"},
+            {"@type": "Person", "name": "Gabriel Curio"},
+            {"@type": "Person", "name": "Vadim Nikulin"}
+        ],
+        "datePublished": "2022",
+        "isPartOf": {"@type": "Periodical", "name": "Neuroinformatics"},
+        "identifier": "https://doi.org/10.1007/s12021-022-09581-8",
+        "url": "https://moritz-gerster.com/publications/separating-neural-oscillations-1f.html",
+        "sameAs": ["https://doi.org/10.1007/s12021-022-09581-8", "https://link.springer.com/article/10.1007/s12021-022-09581-8", "https://doi.org/10.1101/2021.10.15.464483"],
+        "keywords": ["aperiodic 1/f activity", "neural oscillations", "FOOOF", "IRASA", "spectral parameterization", "EEG", "MEG", "LFP"],
+        "description": "Methods and recommendations paper discussing how to separate neural oscillations from aperiodic 1/f-like activity in electrophysiological power spectra."
+    }
+    </script>
+</head>
+<body>
+    <nav class="pub-nav">
+        <a href="../index.html">Moritz Gerster</a>
+        <a href="../research.html">Research</a>
+    </nav>
+    <main class="publication-page">
+        <h1>Separating Neural Oscillations from Aperiodic 1/f Activity: Challenges and Recommendations</h1>
+
+        <p class="pub-authors">Moritz Gerster, Gunnar Waterstraat, Vladimir Litvak, Klaus Lehnertz, Alfons Schnitzler, Esther Florin, Gabriel Curio, and Vadim Nikulin</p>
+
+        <p class="pub-citation">Gerster, M., Waterstraat, G., Litvak, V., Lehnertz, K., Schnitzler, A., Florin, E., Curio, G. and Nikulin, V., 2022. Separating neural oscillations from aperiodic 1/f activity: challenges and recommendations. <em>Neuroinformatics</em> 20, 991–1012. <a href="https://doi.org/10.1007/s12021-022-09581-8">https://doi.org/10.1007/s12021-022-09581-8</a>.</p>
+
+        <h2>Abstract</h2>
+        <p>Electrophysiological power spectra typically consist of two components: An aperiodic part usually following an 1/f power law P ∝ 1∕f β and periodic components appearing as spectral peaks. While the investigation of the periodic parts, commonly referred to as neural oscillations, has received considerable attention, the study of the aperiodic part has only recently gained more interest. The periodic part is usually quantified by center frequencies, powers, and bandwidths, while the aperiodic part is parameterized by the y-intercept and the 1/f exponent β. For investigation of either part, however, it is essential to separate the two components. In this article, we scrutinize two frequently used methods, FOOOF (Fitting Oscillations &amp; One-Over-F) and IRASA (Irregular Resampling Auto-Spectral Analysis), that are commonly used to separate the periodic from the aperiodic component. We evaluate these methods using diverse spectra obtained with electroencephalography (EEG), magnetoencephalography (MEG), and local field potential (LFP) recordings relating to three independent research datasets. Each method and each dataset poses distinct challenges for the extraction of both spectral parts. The specific spectral features hindering the periodic and aperiodic separation are highlighted by simulations of power spectra emphasizing these features. Through comparison with the simulation parameters defined a priori, the parameterization error of each method is quantified. Based on the real and simulated power spectra, we evaluate the advantages of both methods, discuss common challenges, note which spectral features impede the separation, assess the computational costs, and propose recommendations on how to use them.</p>
+
+        <h2>Summary</h2>
+        <p>This methods and recommendations paper discusses how to separate neural oscillations from aperiodic 1/f-like activity in electrophysiological power spectra. It is relevant for researchers comparing FOOOF and IRASA, estimating the aperiodic exponent, detecting oscillatory peaks, and analyzing EEG, MEG, and LFP power spectra. The paper provides practical guidance for spectral parameterization and for avoiding misinterpretation of oscillatory activity when aperiodic background activity changes.</p>
+
+        <p class="pub-keywords">Keywords: aperiodic 1/f activity; neural oscillations; FOOOF; IRASA; spectral parameterization; electrophysiological power spectra; EEG; MEG; LFP; oscillation detection; aperiodic exponent; power-law background.</p>
+
+        <h2>Links</h2>
+        <ul class="pub-links">
+            <li><a href="https://doi.org/10.1007/s12021-022-09581-8" target="_blank" rel="noopener">Published article (DOI)</a></li>
+            <li><a href="https://link.springer.com/content/pdf/10.1007/s12021-022-09581-8.pdf" target="_blank" rel="noopener">Publisher PDF (Springer Open Access)</a></li>
+            <li><a href="../assets/pdfs/Gerster_2022_Neuroinformatics_Separating_Neural_Oscillations_1f.pdf" target="_blank">Download PDF (local copy)</a></li>
+            <!-- TODO: Add MPGPuRe PDF URL if desired -->
+        </ul>
+
+        <details>
+            <summary>BibTeX</summary>
+            <pre><code>@article{gerster2022separating,
+  title={Separating neural oscillations from aperiodic 1/f activity: challenges and recommendations},
+  author={Gerster, Moritz and Waterstraat, Gunnar and Litvak, Vladimir and Lehnertz, Klaus and Schnitzler, Alfons and Florin, Esther and Curio, Gabriel and Nikulin, Vadim},
+  journal={Neuroinformatics},
+  volume={20},
+  pages={991--1012},
+  year={2022},
+  publisher={Springer},
+  doi={10.1007/s12021-022-09581-8}
+}</code></pre>
+        </details>
+    </main>
+</body>
+</html>

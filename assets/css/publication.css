@@ -1,0 +1,156 @@
+:root {
+  --pub-bg: #1a1a1a;
+  --pub-text: #e0e0e0;
+  --pub-heading: #ffffff;
+  --pub-link: #bb86fc;
+  --pub-link-hover: #d4aaff;
+  --pub-muted: #999;
+  --pub-border: #333;
+  --pub-nav-bg: #111;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --pub-bg: #ffffff;
+    --pub-text: #333333;
+    --pub-heading: #111111;
+    --pub-link: #6a00bb;
+    --pub-link-hover: #4e00bb;
+    --pub-muted: #666;
+    --pub-border: #ddd;
+    --pub-nav-bg: #f5f5f5;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--pub-text);
+  background: var(--pub-bg);
+}
+
+.pub-nav {
+  display: flex;
+  gap: 2em;
+  padding: 1em 2em;
+  background: var(--pub-nav-bg);
+  border-bottom: 1px solid var(--pub-border);
+  font-size: 0.95em;
+}
+
+.pub-nav a {
+  color: var(--pub-link);
+  text-decoration: none;
+}
+
+.pub-nav a:hover {
+  color: var(--pub-link-hover);
+}
+
+.publication-page {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 2em 1.5em 4em;
+}
+
+.publication-page h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--pub-heading);
+  margin-bottom: 0.8em;
+  line-height: 1.4;
+}
+
+.publication-page h2 {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--pub-heading);
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+.pub-authors {
+  font-size: 0.9em;
+  color: var(--pub-muted);
+  margin-bottom: 1em;
+}
+
+.pub-citation {
+  font-size: 0.9em;
+  padding: 1em;
+  background: var(--pub-nav-bg);
+  border-radius: 4px;
+  border-left: 3px solid var(--pub-link);
+}
+
+.pub-citation a {
+  color: var(--pub-link);
+  word-break: break-all;
+}
+
+.pub-keywords {
+  font-size: 0.85em;
+  color: var(--pub-muted);
+  font-style: italic;
+}
+
+.pub-links {
+  list-style: none;
+  padding: 0;
+}
+
+.pub-links li {
+  margin-bottom: 0.5em;
+}
+
+.pub-links a {
+  color: var(--pub-link);
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  color: var(--pub-link-hover);
+  text-decoration: underline;
+}
+
+.pub-note {
+  font-size: 0.85em;
+  color: var(--pub-muted);
+  font-style: italic;
+  margin-top: 1em;
+  padding: 0.8em;
+  border: 1px solid var(--pub-border);
+  border-radius: 4px;
+}
+
+details {
+  margin-top: 1.5em;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 400;
+  color: var(--pub-link);
+}
+
+details pre {
+  margin-top: 0.5em;
+  padding: 1em;
+  background: var(--pub-nav-bg);
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+details code {
+  font-family: 'Courier New', monospace;
+  color: var(--pub-text);
+}
